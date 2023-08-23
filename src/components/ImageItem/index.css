@@ -1,0 +1,14 @@
+.image-item {
+  list-style-type: none;
+}
+.img-btn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.thumbnail-img {
+  width: 150px;
+  height: 165px;
+  margin: 20px;
+}
