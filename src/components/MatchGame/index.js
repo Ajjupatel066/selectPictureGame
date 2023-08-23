@@ -275,7 +275,7 @@ class MatchGame extends Component {
     const {time} = this.state
 
     if (time === 0) {
-      this.clearInterval()
+      this.clearIntervalId()
       this.setState(prevState => ({
         isGameInProgress: !prevState.isGameInProgress,
       }))
@@ -370,6 +370,17 @@ class MatchGame extends Component {
           {isGameInProgress
             ? this.renderImagesList()
             : this.renderWinOrLoseCard()}
+          <p className="designed">
+            Designed By:
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/ajith-kumar-esampally/"
+            >
+              Ajith Kumar Esampally
+            </a>
+          </p>
         </div>
       </div>
     )

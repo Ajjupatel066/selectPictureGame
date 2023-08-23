@@ -8,9 +8,7 @@
   color: #ffff;
   font-weight: 800;
   font-family: 'Roboto';
-  border-bottom: 3px;
   border-width: 0px;
-  border-style: solid;
   font-size: 20px;
   cursor: pointer;
   outline: none;
@@ -21,4 +19,14 @@
   border-bottom: 3px;
   border-color: #fec653;
   border-style: solid;
+}
+.designed {
+  color: #ffff;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Ubuntu';
+}
+
+.link {
+  color: #fec653;
 }
